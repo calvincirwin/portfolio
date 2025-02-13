@@ -1,0 +1,243 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Center the About Me Section */
+.about-me {
+  text-align: center;
+  max-width: 600px;   /* Limits the width for better readability */
+  margin: 0 auto;     /* Centers it horizontally */
+  padding: 20px;
+  background-color: white;  /* Ensures contrast */
+  border-radius: 10px;  /* Soft rounded edges */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Adds a subtle shadow */
+}
+
+/* Header */
+header {
+  background: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 1.2em;
+}
+
+/* About Me Section */
+section {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: left;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #ccc;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
+
+/* Portfolio Section */
+.portfolio {
+  text-align: center;
+  padding: 40px;
+}
+
+/* Center Project Cards */
+.project-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centers all text inside */
+}
+
+/* Center Project Images */
+.project-image {
+  width: 100%;  /* Makes it responsive */
+  max-width: 250px !important;  /* Limits size */
+  height: auto !important;  /* Keeps aspect ratio */
+  border-radius: 10px;
+  display: block;
+  margin: 10px auto; /* Centers images */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Picture */
+img.profile {
+  max-width: 150px;  /* Set max size */
+  height: auto;  /* Maintain aspect ratio */
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Resume Preview */
+.resume-image {
+  max-width: 400px;  /* Set a reasonable max width */
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 20px auto;
+}
+
+
+/* Center and Style the Portfolio Title */
+section.portfolio h2 {
+  text-align: center !important; /* Force centering */
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* ========================= */
+/*         CONTACT PAGE       */
+/* ========================= */
+
+.contact {
+  text-align: center;
+  padding: 40px;
+}
+
+/* Contact Form */
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Labels */
+.contact-form label {
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input Fields */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+/* Input Hover & Focus */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Textarea */
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Submit Button */
+.contact-form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: #0056b3;
+}
+
+/* ========================= */
+/*        RESUME PAGE        */
+/* ========================= */
+
+.resume {
+  text-align: center;
+  padding: 40px;
+}
+
+/* Download Button */
+.resume-download {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.resume-download:hover {
+  background: #0056b3;
+}
+
+/* Proficiency List */
+.resume-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.resume-list li {
+  background: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
