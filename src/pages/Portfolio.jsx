@@ -1,10 +1,7 @@
 import Project from "../components/Project";
 
 export default function Portfolio() {
-  const projects = [
-    { title: "Redux Counter", image: "/projects/redux.png", github: "https://github.com/calvincirwin/redux-counter", live: "https://calvincirwin.github.io/redux-counter/" },
-    { title: "Read Me Generator", image: "/project2.jpg", github: "https://github.com/calvincirwin/professional-readme-generator-automation"}title: '},
-  ];
+
   const projects = [
     { 
         title: "Redux Counter", 
