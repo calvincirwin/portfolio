@@ -1,17 +1,17 @@
 import Project from "../components/Project";
 
 export default function Portfolio() {
-
+  
   const projects = [
     { 
         title: "Redux Counter", 
-        image: "/projects/redux.png", 
+        image: "/redux.png", 
         github: "https://github.com/calvincirwin/redux-counter", 
         live: "https://calvincirwin.github.io/redux-counter/"
     },
     { 
         title: "Weather Dashboard", 
-        image: "/projects/weather-dashboard.png", 
+        image: "/weather-dashboard.png", 
         github: "https://github.com/calvincirwin/weather-dashboard",
 			live: "https://weather-dashboard-frontend-47f9.onrender.com/"
 
@@ -28,12 +28,12 @@ export default function Portfolio() {
     },
     { 
         title: "Employee Tracker CMS", 
-        image: "/projects/employee-tracker-cms.png", 
+        image: "/employee-tracker-cms.png", 
         github: "https://github.com/calvincirwin/employee-tracker-cms"
     },
     { 
         title: "Professional README Generator", 
-        image: "/projects/readme.png", 
+        image: "/readme.png", 
         github: "https://github.com/calvincirwin/professional-readme-generator-automation"
     }
 ];
